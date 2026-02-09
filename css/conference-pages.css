@@ -1,0 +1,67 @@
+/* PAGE HEADER */
+.page-header {
+  background: linear-gradient(rgba(11,43,60,0.9), rgba(11,43,60,0.9));
+  color: #fff;
+  padding: 80px 0;
+}
+
+.page-header h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+
+/* SECTION BACKGROUND */
+.registration-section,
+.submission-section {
+  background-color: #f8f9fa;
+}
+
+/* CARD STYLING */
+.card {
+  border: none;
+  border-radius: 12px;
+  box-shadow: 0 8px 25px rgba(0,0,0,0.08);
+  transition: 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 35px rgba(0,0,0,0.12);
+}
+
+/* TABLE */
+.table th {
+  background-color: #0b2b3c;
+  color: #fff;
+  text-align: center;
+}
+
+.table td {
+  text-align: center;
+}
+
+/* BUTTONS */
+.btn-warning {
+  background-color: #ffd369;
+  border: none;
+  font-weight: 600;
+}
+
+.btn-warning:hover {
+  background-color: #ffc107;
+}
+
+.btn-outline-dark {
+  font-weight: 500;
+}
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .page-header h2 {
+    font-size: 26px;
+  }
+
+  .card {
+    padding: 20px;
+  }
+}
